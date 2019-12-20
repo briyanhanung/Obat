@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/fgMata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_hapus_obatluka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="170dp"
+        android:drawableStart="@drawable/ic_delete_black_24dp" />
+    <TextView
+            android:id="@+id/tv_edit_obatluka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="120dp"
+            android:drawableStart="@drawable/ic_mode_edit_black_24dp"/>
+    <TextView
+            android:id="@+id/tv_tambah_obatluka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="70dp"
+            android:drawableStart="@drawable/ic_add_circle_black_24dp"
+            />
+</RelativeLayout >

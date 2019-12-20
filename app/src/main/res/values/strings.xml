@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">obat</string>
+    <string name="cara_berdasarkan_kategori">Cari berdasarkan kategori</string>
+    <string name="sakit_mata">Sakit Mata</string>
+    <string name="maag_label">Maag</string>
+    <string name="batuk_label">Batuk</string>
+    <string name="kepala_pusing_label">Kepala pusing</string>
+    <string name="sakit_gigi_label">Sakit gigi</string>
+    <string name="luka_label">Luka</string>
+    <string name="pesanan">Pesanan</string>
+    <string name="input_kategori">Input Kategori</string>
+    <string name="about">About</string>
+
+    <string-array name="Spinner_kategori_obat">Kategori
+        <item>Sakit Mata</item>
+        <item>Maag</item>
+        <item>Batuk</item>
+        <item>Kepala Pusing</item>
+        <item>Sakit Gigi</item>
+        <item>Luka</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

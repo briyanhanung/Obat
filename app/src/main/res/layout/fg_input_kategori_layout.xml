@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/lnKategoriParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+            android:id="@+id/toMata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                    android:id="@+id/lnKategori"
+                    android:background="#ffffff"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp">
+
+                <TextView
+                        android:id="@+id/tvHeaderKateogri"
+                        android:text="@string/cara_berdasarkan_kategori"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_marginStart="20dp"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:fontFamily="serif"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--sakit mata-->
+                <LinearLayout
+                        android:id="@+id/lnMata"
+                        android:background="@drawable/round"
+                        android:layout_below="@+id/tvHeaderKateogri"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgMata"
+                            android:src="@drawable/eye"
+                            android:layout_margin="8dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/tvLabelMata"
+                        android:text="@string/sakit_mata"
+                        android:layout_below="@id/lnMata"
+                        android:textColor="#0aa30a"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--pusing-->
+                <LinearLayout
+                        android:id="@+id/lnPusing"
+                        android:background="@drawable/round"
+                        android:layout_below="@+id/tvLabelMata"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgPusing"
+                            android:src="@drawable/pusing"
+                            android:layout_margin="8dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/tvLabelPusing"
+                        android:text="@string/kepala_pusing_label"
+                        android:layout_below="@id/lnPusing"
+                        android:textColor="#0aa30a"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--sakit maag-->
+                <LinearLayout
+                        android:id="@+id/lnMaag"
+                        android:background="@drawable/round"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/tvHeaderKateogri"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgMaag"
+                            android:src="@drawable/maag"
+                            android:layout_margin="8dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/tvLabelMaag"
+                        android:text="@string/maag_label"
+                        android:layout_below="@id/lnMaag"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#0aa30a"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--sakit gigi-->
+                <LinearLayout
+                        android:id="@+id/lnGigi"
+                        android:background="@drawable/round"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/tvLabelMaag"
+                        android:layout_marginTop="21dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgGigi"
+                            android:src="@drawable/tooth"
+                            android:layout_margin="9dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/tvLabelGigi"
+                        android:text="@string/sakit_gigi_label"
+                        android:layout_below="@id/lnGigi"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#0aa30a"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--batuk-->
+                <LinearLayout
+                        android:id="@+id/lnBatuk"
+                        android:background="@drawable/round"
+                        android:layout_below="@+id/tvHeaderKateogri"
+                        android:layout_marginEnd="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgBatuk"
+                            android:src="@drawable/cough"
+                            android:layout_margin="8dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+                <TextView
+                        android:id="@+id/tvLabelBatuk"
+                        android:text="@string/batuk_label"
+                        android:layout_below="@id/lnMata"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="35dp"
+                        android:textColor="#0aa30a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <!--luka-->
+                <LinearLayout
+                        android:id="@+id/lnLuka"
+                        android:background="@drawable/round"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_below="@+id/tvLabelMaag"
+                        android:layout_marginTop="21dp"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    <ImageView
+                            android:id="@+id/imgLuka"
+                            android:src="@drawable/luka"
+                            android:layout_margin="9dp"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"/>
+
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/tvLabelLuka"
+                        android:text="@string/luka_label"
+                        android:layout_below="@id/lnGigi"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="40dp"
+                        android:textColor="#0aa30a"
+                        android:layout_marginStart="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_hapusKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="170dp"
+        android:drawableStart="@drawable/ic_delete_black_24dp" />
+    <TextView
+            android:id="@+id/tv_editKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="120dp"
+            android:drawableStart="@drawable/ic_mode_edit_black_24dp" />
+    <TextView
+            android:id="@+id/tv_tambahKategori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="70dp"
+            android:drawableStart="@drawable/ic_add_circle_black_24dp" />
+
+
+</RelativeLayout>

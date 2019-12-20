@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fgUpdateKategori"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <EditText
+            android:id="@+id/edNama_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Kategori"
+            android:layout_margin="20dp"
+            />
+    <Button
+            android:id="@+id/btn_Update"
+            android:text="UPDATE"
+            android:background="#2573E5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            />
+
+</RelativeLayout>
